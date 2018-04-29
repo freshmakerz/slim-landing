@@ -1,0 +1,13 @@
+{
+    "require": {
+        "slim/slim": "^3.0",
+        "slim/twig-view": "^2.3",
+        "prismic/php-sdk": "^3.4",
+        "monolog/monolog": "^1.23",
+        "illuminate/database": "~5.1",
+        "slim/http-cache": "^0.4.0",
+        "mailgun/mailgun-php": "^2.4",
+        "php-http/curl-client": "^1.7",
+        "guzzlehttp/psr7": "^1.4"
+    }
+}

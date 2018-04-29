@@ -1,0 +1,13 @@
+<nav>
+    <ul>
+        <li {{ page_name == 'home' ? 'class="active"' : '' }}>
+            <a href="/">Le quartier</a>
+        </li>
+        <li {{ page_name == 'les-3-adresses' ? 'class="active"' : '' }}>
+            <a href="/les-3-adresses">Les 3 adresses</a>
+        </li>
+        <li {{ page_name == 'les-signatures' ? 'class="active"' : '' }}>
+            <a href="/les-signatures">Les signatures</a>
+        </li>
+    </ul>
+</nav>
